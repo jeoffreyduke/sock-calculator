@@ -1,0 +1,75 @@
+.Body {
+  width: 30.5vw;
+  height: 52vh;
+  background-color: #fff;
+  position: relative;
+  bottom: 15vh;
+  left: 35rem;
+  border-bottom-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+
+.key_container {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  height: 47vh;
+  position: relative;
+  top: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+button {
+  border-radius: 1.2rem;
+  border: none;
+  font-size: 1rem;
+  color: #808080;
+}
+
+.bolder {
+  color: #000;
+}
+
+.AC {
+  background-color: #ff004c;
+  color: #fff;
+}
+
+.span-two {
+  grid-column: 3 / span 2;
+  background-color: rgb(30, 207, 30);
+  color: #fff;
+}
+
+@media screen and (min-width: 300px) {
+  .Body {
+    width: 78vw;
+    height: 52vh;
+    background-color: #fff;
+    position: relative;
+    bottom: 15vh;
+    left: 2.5rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .Body {
+    width: 30.5vw;
+    height: 52vh;
+    background-color: #fff;
+    position: relative;
+    bottom: 15vh;
+    left: 35rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+  }
+}
